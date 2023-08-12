@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: blanchedalmond;
+}
+
+.h1 {
+  text-align: center;
+  margin-top: 5px;
+}
+.main {
+  width: 90vw;
+  height: 100vh;
+  margin-left: 4%;
+  display: flex;
+}
+
+.left-side,
+.right-side {
+  margin-top: 4%;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-side textarea {
+  padding: 1rem;
+  font-size: 15px;
+  height: 90%;
+  width: 90%;
+  border: 2px solid black;
+  overflow: scroll;
+}
+
+.right-side div {
+  margin-left: 30px;
+  padding: 1rem;
+  background-color: #f1f5f8;
+  border: 2px solid black;
+  height: 90%;
+  width: 90%;
+}
+
+.right-side div li {
+  margin-left: 10px;
+}
+
+.right-side div pre {
+  display: inline-block;
+  text-align: center;
+  padding: 6px;
+  border-radius: 2px;
+  color: yellow;
+  background-color: black;
+}
+
+
